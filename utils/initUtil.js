@@ -1,0 +1,1 @@
+// Teerauwt's Template NextJS MVC
