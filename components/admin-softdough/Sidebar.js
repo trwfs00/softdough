@@ -37,6 +37,8 @@ const Sidebar = ({ children, className }) => {
             startIcon={<ChartPieIcon className="h-5 w-5 inherit" />}
             handleActive={handleActive}
           />
+          {/* MenuDropdown ก็สร้างเองอาศัย Accordian ของ headlessui มาทำ 
+          แต่ state active ยังไม่แก้ มันจะแปลกๆ หน่อยเดะมาอัปเดตให้ */}
           <MenuDropdown
             title="วัตถุดิบ"
             startIcon={<CubeIcon className="h-5 w-5 inherit" />}
